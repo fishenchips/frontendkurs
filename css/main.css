@@ -7,9 +7,15 @@ Adding specific font*/
     font-family:'Montserrat', sans-serif;
 }
 
+body {
+    line-height: 1.6;
+    color: gray;
+    font-size: 1.8rem;
+}
+
 /* making header picture 100% wide */ 
 .header {
-    position: relative;
+    position: relative; 
     height: 1200px;
     border: 2px solid green;
 }
@@ -38,10 +44,6 @@ Adding specific font*/
     font-size:2rem;
 }
 
-.header-text2{
-    font-size: 1.2rem;
-}
-
 .header-span1 {
     position:absolute;
     top: 88%;
@@ -57,30 +59,94 @@ Adding specific font*/
 .wrapper1 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 4rem;
+    border: 3px solid rgb(43, 138, 141);
 }
+
 
 .main1 {
     display:flex;
     flex-direction: column;
-    width: 50%;
-    margin-left: 10%;
+    width: 37%;
+    margin-left: 15%;
     height: 1000px;
     border: 1px solid salmon;
+    gap: 3rem;
 }
 
 .main-title {
-    justify-content:flex-end;
-    margin-bottom: 4rem;
+    color: rgba(15, 15, 15, 0.774);
 }
 
 .mobile-front {
-    width: 40%;
+    width: 50%;
     height: 1000px;
-    border: 1 px solid seagreen;
+    border: 1px solid seagreen;
     left: 60%;
     bottom: 60%;
 }
 
+.first-mobile-pic {
+    position:relative;
+    width:101%;
+    bottom: 22.5%;
+    right: 10%;
+}
 
+.video-section {
+    background-color: black;
+    margin-bottom: 5rem;
+
+}
+
+video {
+    width: 100%;
+    height: 45rem;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hotpink;
+}
+
+.mobile-back {
+    width: 45%;
+    height: 1000px;
+    border: 1px solid seagreen;
+    left: 60%;
+    bottom: 60%;
+}
+
+.second-mobile-pic {
+    position: relative;
+    width:101%;
+    right:3%;
+    bottom: 16%;
+}
+
+.main2 {
+    flex-direction: column;
+    margin-top: 8rem;
+    width: 40%;
+    height: 1000px;
+    border: 1px solid salmon;
+    gap: 3rem;
+}
+
+.main3 {
+    display:flex;
+    flex-direction: column;
+    margin-left: 20%;
+    width: 60%;
+    border: 2px solid tomato;
+    gap: 3rem;
+}
+
+.main-bottom{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid aqua;
+}
 
 /*font-weight: 300, 700 osv lagt till i head/*
