@@ -154,6 +154,7 @@ video {
     background-position-x: center;
     background-repeat: no-repeat;
     margin-top: -1rem;
+    text-align: center;
 }
 
 .main-text9 {
@@ -302,63 +303,58 @@ video {
     }
     
     .main3 {
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin-left: 15%;
         margin-top:-3rem;
         width: 70%;
-        height: 400px;
+        height: 380px;
+        font-size: 1.2rem;
+
     }
 
     .main-bottom{
         justify-content: space-between;
-        height: 400px;
-        background-size: 100%;
-
-        /* fixa denna text spacebetween elelr vadå? ingen margin ned från lägsta texten, större height?*/
-        
+        height: 450px;
+        background-size: 105%;
+        background-position-y: center;
+        padding-bottom: 3rem;
+        font-size: 1.2rem;        
     }
     
     .main-text9 {
-        color: rgba(15, 15, 15, 0.774);
         margin-top: 10rem;
+        font-size: 1.8rem;
     }
     
     .main-text10 {
-        width: 65%;
+        width: 75%;
         border: 1px dotted blue;    
     }
     
     .footer{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(0, 0, 0, 0.788);
         color: whitesmoke;
-        height:600px;
+        height:380px;
+        font-size: 1.2rem;        
     }
     
     .footer-left {
-        flex-direction: column;
-        width: 30%;
+        width: 35%;
         margin-left:15%;
-        margin-top:6rem;
-        border: 2px solid wheat;
+        margin-top:4rem;
     }
     
     .footer-header {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     .footer-text1 {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     .footer-right {
-        flex-direction: column;
-        text-align: end;
-        margin-top: 12rem;
+        margin-top: 8rem;
         margin-left: 10rem;
-        width:25%;
-        border: 2px solid orange;
+        width:28%;
     }
     
     .footer-text3 {
