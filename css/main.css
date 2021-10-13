@@ -205,10 +205,134 @@ video {
 }
 
 @media (max-width: 1280px) {
+    /*changing font size and line height of everything */
     body {
         line-height: 1.5;
         font-size: 1.6rem;
     }
+    
+    /* making header picture 100% wide */ 
+    .header {
+        height: 1150px;
+    }
+    
+    /* placing text in header in the center with right size */
+    .header-top {
+        left: 48%;
+        top: 4%;
+        font-size: 1.0rem;
+    }
+    
+    /*placing Header in right position with right size */
+    .header-text {
+        left: 54%;
+        top: 64%;
+        font-size:1.6rem;
+    }
+    
+    /* placing header text in right position with correct size */
+    .header-span1 {
+        top: 73%;
+        left: 18%;
+        font-size:1.6rem;
+    }
+    
+    /*same as above*/
+    .header-span2 {
+        top: 76%;
+        left: 46%;
+        font-size: 1.6rem;
+    }
+
+    /*changing dimensions of first text box*/
+    .main1 {
+        width: 38%;
+        font-size:1.3rem;
+        height: 850px;
+    }
+    
+    .mobile-front {
+        width: 50%;
+    }
+    
+    /*placing first picture in the right spot*/
+    .first-mobile-pic {
+        width:120%;
+        margin-top:-12rem;
+        margin-left:-5rem;
+    }
+    
+    /*changing margin to next elements*/
+    .video-section {
+        margin-bottom: 3rem;
+    }
+    
+    /*changing height of video element*/
+    video {
+        height: 42rem;
+    }
+    
+    /*changing height of second text area*/
+    .wrapper2 {
+        height:820px;
+    }
+    
+    /*increasing width of pic and moving it up*/
+    .second-mobile-pic {
+        width:120%;
+        margin-top:-8rem;
+        margin-left:-2rem;
+    }
+
+    /*changing dimensions and placement of second textbox*/
+    .main2 {
+        width: 32%;
+        margin-top: 5rem;
+        font-size:1.3rem;
+        margin-left:2rem;
+    }
+    
+    /* new margin between the two paragraphs*/
+    .main-text6{
+        margin-bottom:1.5rem;
+    }
+
+    /* changing dimensions, font size and margin*/
+    .main3 {
+        justify-content: space-evenly;
+        margin-left: 18.5%;
+        width: 63%;
+        height: 400px;
+        font-size:1.3rem;
+    }
+    
+    /* same as above*/
+    .main-bottom{
+        justify-content: space-evenly;
+        height: 500px;
+        background-size: 100%;
+        background-position-y: bottom;
+        margin-top: -1rem;
+        font-size:1.3rem;
+
+    }
+    
+    /*decreasing margin-top*/
+    .main-text9 {
+        font-size: 2.1rem;
+        margin-top: 6rem;
+    }
+    
+    /* increasing width a little*/
+    .main-text10 {
+        width: 60%;
+    }
+
+    /* FOOTER KVAAR */
+
+
+
+
 }
 
 @media (max-width: 1000px) {
@@ -256,10 +380,6 @@ video {
         margin-left: 15%;
         font-size: 1.2rem;
         height: 750px;
-    }
-    
-    .mobile-front {
-        width: 50%;
     }
     
     .first-mobile-pic {
@@ -666,4 +786,5 @@ video {
 
 
 /*to do:
-570px: header mindre? footer mindre? -- vid  571 ballar det ur
+570px: header mindre? footer mindre? -- 
+vid  571 ballar det ur -- PROVA  lägga ljusblå backgrund yposition center/end från början
