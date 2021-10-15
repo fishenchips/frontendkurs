@@ -128,11 +128,13 @@ video {
     border: 1px solid seagreen;
 }
 
+/* increasing width and moving the picture up*/
 .second-mobile-pic {
     width:101%;
     margin-top:-8rem;
 }
 
+/* column format for the text with a half width*/
 .main2 {
     flex-direction: column;
     width: 45%;
@@ -141,10 +143,12 @@ video {
     text-align: end;
 }
 
+/* spacing between paragraphs */
 .main-text6{
     margin-bottom:3rem;
 }
 
+/* paragraph below wrapper2, giving justify content: space between*/
 .main3 {
     display:flex;
     flex-direction: column;
@@ -155,6 +159,7 @@ video {
     border: 2px solid tomato;
 }
 
+/* adding second background picture and flexing column for the text */
 .main-bottom{
     display:flex;
     flex-direction: column;
@@ -170,17 +175,20 @@ video {
     text-align: center;
 }
 
+/* changing font and color of its header*/
 .main-text9 {
     color: rgba(15, 15, 15, 0.774);
     margin-top: 10rem;
     font-size: 2.4rem;
 }
 
+/* changing width to fit the text */
 .main-text10 {
     width: 65%;
     border: 1px dotted blue;    
 }
 
+/* flexing items in row so they are next to each other */
 .footer{
     display: flex;
     flex-direction: row;
@@ -189,6 +197,7 @@ video {
     height:600px;
 }
 
+/* chaning to column*/
 .footer-left {
     flex-direction: column;
     width: 32%;
@@ -197,14 +206,17 @@ video {
     border: 2px solid wheat;
 }
 
+/* adding spacing in footer-left*/
 .footer-header {
     margin-bottom: 2rem;
 }
 
+/* adding spacing in footer-left*/
 .footer-text1 {
     margin-bottom: 2rem;
 }
 
+/*same as footer-left*/
 .footer-right {
     flex-direction: column;
     text-align: end;
@@ -214,10 +226,12 @@ video {
     border: 2px solid orange;
 }
 
+/*/* adding spacing in footer-right*/
 .footer-text3 {
     margin-bottom: 2rem;
 }
 
+/* adding specific css  for width:1200px */
 @media (max-width: 1200px) {
     /*changing font size and line height of everything */
     body {
@@ -376,6 +390,7 @@ video {
     }
 }
 
+/* adding specific css  for width:1000px */
 @media (max-width: 1000px) {
     body {
         line-height: 1.5;
@@ -389,9 +404,9 @@ video {
       
     /* placing text in header in the center */
     .header-top {
-        left: 45%;
+        left: 46%;
         top: 4%;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     
     .header-text {
@@ -402,14 +417,14 @@ video {
     
     .header-span1 {
         top: 80%;
-        left: 14%;
-        font-size:1.4rem;
+        left: 19%;
+        font-size:1.3rem;
     }
     
     .header-span2 {
         top: 83%;
-        left: 43%;
-        font-size: 1.4rem;
+        left: 46%;
+        font-size: 1.3rem;
     }
 
     .wrapper1 {
@@ -420,13 +435,13 @@ video {
         width: 45%;
         margin-left: 15%;
         font-size: 1.2rem;
-        height: 750px;
+        height: 720px;
     }
     
     .first-mobile-pic {
-        width:120%;
-        margin-top:-8rem;
-        margin-left:-6rem;
+        width:128%;
+        margin-top:-9.5rem;
+        margin-left:-5rem;
     }
     
     .video-section {
@@ -447,12 +462,12 @@ video {
     }
     
     .second-mobile-pic {
-        width:120%;
-        margin-top:-8rem;
+        width:128%;
+        margin-top:-6rem;
     }
     
     .main2 {
-        width: 40%;
+        width: 37%;
         margin-top: 5rem;
         margin-left:1rem;
         font-size: 1.2rem;
@@ -466,7 +481,7 @@ video {
     .main3 {
         justify-content: space-evenly;
         margin-left: 15%;
-        margin-top:-3rem;
+        margin-top:-1rem;
         width: 70%;
         height: 380px;
         font-size: 1.2rem;
@@ -484,12 +499,11 @@ video {
     
     .main-text9 {
         margin-top: 10rem;
-        font-size: 1.8rem;
+        font-size: 2.0rem;
     }
     
     .main-text10 {
         width: 75%;
-        border: 1px dotted blue;    
     }
     
     .footer{
@@ -513,7 +527,7 @@ video {
     
     .footer-right {
         margin-top: 8rem;
-        margin-left: 10rem;
+        margin-left: 7rem;
         width:28%;
     }
     
@@ -522,7 +536,7 @@ video {
     }
 }
 
-
+/* adding specific css  for width:800px */
 @media (max-width: 800px) {
     body {
         line-height: 1.5;
@@ -532,32 +546,31 @@ video {
     /*size of header*/
     .header {
         height: 700px;
-        border: 2px solid rgb(138, 25, 104);
     }
     
     /*placing text in header in the center and adjusting size */
     .header-top {
-        left: 47%;
+        left: 45%;
         top: 5%;
         font-size: 0.6rem;
     }
     
     /*adjusting header position */
     .header-text {
-        left: 53%;
-        top: 70%;
+        left: 52%;
+        top: 71%;
         font-size:1.1rem;
     }
     
     .header-span1 {
         top: 80%;
-        left: 17%;
+        left: 16%;
         font-size:1.1rem;
     }
     
     .header-span2 {
         top: 83%;
-        left: 45%;
+        left: 44%;
         font-size: 1.1rem;
     } 
 
@@ -568,7 +581,7 @@ video {
 
     .main1 {
         width: 50%;
-        margin-left: 15%;
+        margin-left: 13%;
         font-size: 1rem;
         height: 600px;
     }
@@ -578,9 +591,8 @@ video {
     }
     
     .first-mobile-pic {
-        width:125%;
-        height: 105%;
-        margin-top:-7rem;
+        width:135%;
+        margin-top:-8rem;
         margin-left:-5rem;
     }
 
@@ -588,7 +600,7 @@ video {
         margin-bottom: 3rem;
     }
     
-    /* chaning height of video */
+    /* changing height of video */
     video {
         height: 30rem;
     }
@@ -602,16 +614,15 @@ video {
     }
     
     .second-mobile-pic {
-        width:125%;
-        height:105%;
+        width:135%;
         margin-top:-4rem;
-        margin-left: -1rem;
+        margin-left:0rem;
     }
     
     .main2 {
-        width: 45%;
+        width: 40%;
         margin-top: 4rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
         font-size: 1rem;
     }    
 
@@ -622,30 +633,32 @@ video {
     .main3 {
         justify-content: space-around;
         margin-left: 20%;
-        margin-top: -3rem;
         width: 70%;
-        height: 350px;
+        height: 280px;
         font-size:1rem;        
     }
     
     .main-bottom{
-        height: 300px;
-        background-size: 105%;
+        height: 320px;
+        background-size: 100%;
+        z-index: 1;
     }
     
     .main-text9 {
         margin-top: 6rem;
+        margin-bottom: 2rem;
         font-size: 1.2rem;
     }
     
     .main-text10 {
-        width: 75%;
+        width: 72%;
+        align-self: center;
         font-size: 1rem;
         margin-bottom: 1rem;
     }
     
     .footer{
-        height:350px;
+        height:300px;
         font-size: 1rem;
     }
     
@@ -664,7 +677,7 @@ video {
     }
     
     .footer-right {
-        margin-top: 6rem;
+        margin-top: 6.5rem;
         margin-left: 3rem;
         width:30%;
     }
@@ -675,7 +688,7 @@ video {
 
 }
 
-/* Tweeks for screen width 570px */
+/* adding specific css  for width:570px */
 @media (max-width: 570px) {
     body {
         line-height: 1.4;
@@ -684,7 +697,6 @@ video {
 
     .header {
         height: 550px;
-        border: 2px solid rgb(138, 25, 104);
     }
     
     /* placing text in header in the center */
@@ -748,7 +760,6 @@ video {
     
     .mobile-back {
         width: 45%;
-        border: 1px solid seagreen;
     }
     
     .second-mobile-pic {
@@ -762,7 +773,6 @@ video {
         margin-right: 2rem;
         margin-left: 2rem;
         width: 50%;
-        border: 1px solid salmon;
         font-size: 0.8rem;
     }
 
@@ -798,7 +808,6 @@ video {
     }
     
     .footer{
-        color: whitesmoke;
         height:300px;
         font-size: 0.8rem;
     }
