@@ -701,15 +701,15 @@ video {
     
     /* placing text in header in the center */
     .header-top {
-        left: 44%;
-        top: 4%;
-        font-size: 0.6rem;
+        left: 45%;
+        top: 5%;
+        font-size: 0.5rem;
     }
     
     .header-text {
-        left: 48%;
+        left: 50%;
         top: 64%;
-        font-size:0.9rem;
+        font-size:0.8rem;
     }
     
     .header-span1 {
@@ -732,7 +732,7 @@ video {
         width: 55%;
         margin-left: 15%;
         font-size: 0.8rem;
-        height: 500px;
+        height: 450px;
     }
     
     .mobile-front {
@@ -740,9 +740,9 @@ video {
     }
     
     .first-mobile-pic {
-        margin-top: -6.5rem;
-        margin-left: -4.5rem;
-        width:150%;
+        margin-top: -5.5rem;
+        margin-left: -5rem;
+        width:160%;
     }
 
     .video-section {
@@ -763,16 +763,16 @@ video {
     }
     
     .second-mobile-pic {
-        width:130%;
+        width:140%;
         margin-top: -4rem;
-        margin-left: -1rem;        
+        margin-left: -2rem;        
     }
     
     .main2 {
-        margin-top: 4rem;
+        margin-top: 3rem;
         margin-right: 2rem;
         margin-left: 2rem;
-        width: 50%;
+        width: 38%;
         font-size: 0.8rem;
     }
 
@@ -808,7 +808,7 @@ video {
     }
     
     .footer{
-        height:300px;
+        height:230px;
         font-size: 0.8rem;
     }
     
